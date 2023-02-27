@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) {
+}
+
+#html_css_section {
+  display: flex;
+  justify-content: center;
+}
+#html_section,
+#css_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  padding: 64px 16px 64px 16px;
+}
+#html_section {
+
+}
+#css_section {
+
+}
+#html_section span,
+#css_section span {
+  color: var(--color-sub);
+  font-size: var(--font-size-tag);
+}
+#html_section > div,
+#css_section > div {
+  color: var(--color-text);
+  font-size: var(--font-size-title);
+  font-weight: bold;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 56px;
+  margin: 56px 0 56px 0;
+}
+figure img {
+  width: 144px;
+}
+#html_css_content {
+  text-align: start;
+}
+#html_css_content > div {
+  font-size: var(--font-size-subtitle);
+  font-weight: 100;
+}
+#html_css_content > div em {
+  color: #F16528;
+}
+#html_css_content > p {
+  margin-top: 1.6em;
+  font-size: var(--font-size-text);
+  color: var(--color-text);
+}
+.html_css_dl {
+  display: flex;
+  margin-top: 1.6em;
+}
+.html_css_dl dd {
+  display: flex;
+  margin-right: 24px;
+  font-size: var(--font-size-larger);
+  color: var(--color-lighter);
+}
+dd .material-symbols-outlined {
+  color: var(--color-sub);
+  font-weight: 900;
+  margin-right: 3px;
+  padding-top: 4px;
+}
+
+
